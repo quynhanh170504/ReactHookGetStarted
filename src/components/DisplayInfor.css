@@ -1,0 +1,38 @@
+.DisplayInfor-container {
+  padding: 100px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-image: url('../../assets/matrix.jpg');
+  background-position: center;
+}
+.listStyle {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px 0px;
+  color: violet;
+  font-weight: bold;
+}
+.childListStyle {
+  flex: 1;
+  flex-direction: row;
+  
+  padding: 10px 5px;
+}
+.childListStyle-content {
+  flex: 3;
+}
+
+.childListStyle-btn {
+  flex: 1;
+  text-align: center;
+}
