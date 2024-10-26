@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import User from './components/User/User'
 import Admin from './components/Admin/Admin'
+import HomePage from './components/Home/HomePage.jsx'
 
 import reportWebVitals from './reportWebVitals'
 import { Provider } from 'react-redux'
@@ -14,7 +15,6 @@ import {
   Routes,
   Route, 
 } from "react-router-dom"
-import HomePage from './components/Home/HomePage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
